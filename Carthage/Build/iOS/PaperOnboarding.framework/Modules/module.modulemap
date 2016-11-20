@@ -1,0 +1,10 @@
+framework module PaperOnboarding {
+  umbrella header "PaperOnboarding.h"
+
+  export *
+  module * { export * }
+}
+
+module PaperOnboarding.Swift {
+    header "PaperOnboarding-Swift.h"
+}
